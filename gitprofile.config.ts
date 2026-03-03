@@ -10,7 +10,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 100, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['oliveiramatheus212'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -122,24 +122,48 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Dev Global - Starter Pack',
+      body: 'Completed a professional certification program at Rocketseat covering technology industry fundamentals, global market dynamics, business environment awareness, cultural intelligence, and professional communication. The program also included English interview preparation, technical interview simulations, and real-world scenario practice.',
+      year: 'January 2026',
+      link: 'https://app.rocketseat.com.br/certificates/ba56df9b-03de-4740-a69d-31ef9d0e9db3',
+    },
+    {
+      name: 'NLW Journey - React Native',
+      body: 'Received a participation certificate from Rocketseat for developing a mobile application with React Native and TypeScript. Applied core concepts such as props, state, and component architecture, utilized Expo Framework and Expo Router for file-based routing, built the interface with NativeWind, integrated a Node.js API, and implemented a calendar picker feature.',
+      year: 'July 2024',
+      link: 'https://app.rocketseat.com.br/certificates/c2eb90c4-e0d3-4809-8ed5-83e419c58619',
+    },
+    {
+      name: 'NLW Expert React ',
+      body: 'Earned a participation certificate from Rocketseat for developing a front-end application using React.js and TypeScript. Applied core concepts such as props, state, and component architecture, utilized Vite for tooling, built a responsive UI with Tailwind CSS, and integrated Web APIs including Web Storage and Web Speech.',
+      year: 'February 2022',
+      link: 'https://app.rocketseat.com.br/certificates/2324c46e-8d03-4a4a-9379-839b18b9bf7a',
+    },
+    {
+      name: "Discover's path Connect",
+      body: 'Received a participation certificate from Rocketseat for completing a foundational program covering essential concepts in web development, including HTML, CSS, JavaScript, and responsive design principles.',
+      year: 'August 2022',
+      link: '',
+    },
+    {
+      name: 'Front-end Imersion',
+      body: 'Received a participation certificate from Alura for completing a foundational program covering essential concepts in front-end development, including HTML, CSS, JavaScript, and responsive design principles.',
+      year: 'February 2024',
+      link: '',
+    },
+    {
+      name: 'Scrum Fundamentals Certified',
+      body: 'Successfully earned the Scrum Fundamentals Certified (SFC™) credential, demonstrating a solid understanding of Scrum principles, roles, events, and artifacts, as well as the ability to apply Agile methodologies in collaborative development environments.',
+      year: 'September 2021',
+      link: 'https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MatheusSilvaOliveira-872361.pdf',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Federal University of Mato Grosso do Sul',
+      degree: 'Software Engineering Bachelor',
+      from: '2020',
+      to: '2024',
     },
   ],
   publications: [],
