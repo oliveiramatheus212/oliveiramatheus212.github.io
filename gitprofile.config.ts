@@ -77,18 +77,28 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Inferência TI',
+      position: 'Front-end Developer',
+      from: 'April 2025',
       to: 'Present',
-      companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'HTP Solution',
+      position: 'FullStack Developer',
+      from: 'January 2023',
+      to: 'January 2024',
+    },
+    {
+      company: 'Meta TI',
+      position: 'Front-end Developer',
+      from: 'September 2021',
+      to: 'September 2022',
+    },
+    {
+      company: 'Inside the Box LTDA',
+      position: 'FullStack Developer',
+      from: 'January 2021',
+      to: 'September 2021',
     },
   ],
   certifications: [
