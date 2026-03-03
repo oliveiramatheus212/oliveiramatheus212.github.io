@@ -24,7 +24,26 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [],
+      projects: [
+        {
+          title:
+            'Núcleo de Práticas em Engenharia de Software - UFMS : Online Evidence Grabber',
+          description:
+            'Desenvolvimento do Online Evidence Grabber, um sistema desktop criado em parceria com a Polícia Federal, voltado ao apoio na investigação de crimes cibernéticos ocorridos em blogs, redes sociais e outras plataformas online. O sistema foi concebido inicialmente para uso interno da Polícia Federal, já considerando desde o início uma arquitetura extensível, permitindo a futura colaboração com outras forças policiais, inclusive em âmbito internacional. O projeto foi desenvolvido como um MVP em Python, linguagem já consolidada na divisão de engenharia de software do cliente, garantindo rápida adoção, manutenção facilitada e alinhamento com o ecossistema técnico existente. Houve forte preocupação com arquitetura limpa, organização do código e sustentabilidade do sistema, possibilitando evoluções futuras e até migração tecnológica, caso necessário. Tecnologias: Python, aplicação desktop, princípios de arquitetura limpa.',
+          imageUrl:
+            'https://nes.facom.ufms.br/storage/uploads/MuKHDReJS6n7rDUkU8WEBAo8JnVR8AuG9O3Xyi0n.jpg',
+          link: 'https://nes.facom.ufms.br/projeto/online-evidence-grabber',
+        },
+        {
+          title:
+            'Núcleo de Práticas em Engenharia de Software - UFMS : LibrixX - Gerenciador de Biblioteca',
+          description:
+            'Desenvolvimento e implantação de um sistema de gerenciamento de biblioteca para um colégio da rede pública com mais de 2.500 alunos, substituindo completamente o controle manual feito com papel e caneta. O sistema automatizou todo o fluxo de empréstimo e devolução de livros, permitindo maior agilidade no atendimento aos alunos durante o curto período de intervalo, além de aumentar significativamente a confiabilidade dos registros e o controle de estoque. A solução foi projetada com foco em bom desempenho e baixo consumo de recursos, considerando as limitações de hardware disponíveis na escola, garantindo uma aplicação leve, responsiva e estável. Para modernizar o processo e reduzir erros operacionais, o sistema conta com integração com leitor de código de barras e impressora térmica, facilitando a identificação dos livros, a gestão do acervo e a emissão de comprovantes. Tecnologias: Vue.js, Node.js, APIs REST, integração com leitor de código de barras e impressora térmica.',
+          imageUrl:
+            'https://nes.facom.ufms.br/storage/uploads/BS5hwpFw2T0kmhqLO6eRObjY44drcKl6r6GwgVJE.jpg',
+          link: 'https://nes.facom.ufms.br/projeto/gerenciador-de-biblioteca',
+        },
+      ],
     },
   },
   seo: {
