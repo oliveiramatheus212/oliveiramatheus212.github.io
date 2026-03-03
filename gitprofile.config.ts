@@ -35,7 +35,7 @@ const CONFIG = {
   social: {
     linkedin: 'oliveira-s-matheus',
     x: '',
-    mastodon: 'a',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '_oliveiramatheus',
